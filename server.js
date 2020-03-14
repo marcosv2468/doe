@@ -4,7 +4,11 @@ const nunjucks = require('nunjucks')
 const server = express()
 const port = 8000
 
-nunjucks.configure(['../', '../', 'frontend/', 'index.html'], {
+// Colocando a permissão para renderizar arquivos estáticos
+server.use(express.static('public'))
+
+// template engine
+nunjucks.configure('./', {
     express: server
 })
 
