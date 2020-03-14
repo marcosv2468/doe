@@ -21,6 +21,10 @@ h1, h2 {
     color: #000000cc;
 }
 
+button {
+    cursor: pointer;
+}
+
 /* TITULOS */
 header h1, main h2 {
     margin-bottom: 70px;
@@ -144,6 +148,7 @@ main .donors {
 
 .donor p {
     margin-top: 24px;
+    margin-bottom: 54px;
     font-size: 14px;
 }
 
