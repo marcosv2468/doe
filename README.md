@@ -1,4 +1,6 @@
 # Doe
 
-É um aplicação para doações de sangue
+É uma pequena aplicação para cadastro de usuários doadores de sangue
+
+
 
